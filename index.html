@@ -1,687 +1,572 @@
 <!DOCTYPE html>
 <html lang="es">
-    <head>
-        <meta charset="utf-8">
-        <title>TRECE13noticias</title>
-        <meta content="width=device-width, initial-scale=1.0" name="viewport">
-        <meta content="Noticias y análisis geopolítico" name="keywords">
-        <meta content="Noticias de la Unión Papelera, Unión Europea, Internacional, Humor y Tecnología, además de análisis." name="description">
 
-        <!-- Favicon -->
-        <link href="img/favicon.png" rel="icon">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Sitio web oficial de la Unión Papelera. Consulta información sobre la UP.">
+    <meta name="author" content="Unión Papelera">
+    <link href="favicon.png" rel="icon">
 
-        <!-- CSS Libraries -->
-        <link href="css/bootstrap.min.css" rel="stylesheet">
-        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
-        <link href="lib/slick/slick.css" rel="stylesheet">
-        <link href="lib/slick/slick-theme.css" rel="stylesheet">
+    <title>Unión Papelera</title>
 
-        <!-- Template Stylesheet -->
-        <link href="css/style.css" rel="stylesheet">
-    </head>
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
-    <body>
-        <!-- Top Header Start -->
-        <div class="top-header">
-            <div class="container">
-                <div class="row align-items-center">
-                    <div class="col-lg-3 col-md-4">
-                        <div class="logo">
-                            <a href="index.html">
-                                <img src="img/logo.png" alt="Logo">
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-lg-6 col-md-4">
-                        <div class="search">
-                            <input type="text" placeholder="Search">
-                            <button><i class="fa fa-search"></i></button>
-                        </div>
-                    </div>
-                    <!--
-                    <div class="col-lg-3 col-md-4">
-                        <div class="social">
-                            <a href=""><i class="fab fa-twitter"></i></a>
-                            <a href=""><i class="fab fa-facebook"></i></a>
-                            <a href=""><i class="fab fa-linkedin"></i></a>
-                            <a href=""><i class="fab fa-instagram"></i></a>
-                            <a href=""><i class="fab fa-youtube"></i></a>
-                        </div>
-                    </div>
-                -->
+    <!-- Additional CSS Files -->
+    <link rel="stylesheet" href="assets/css/fontawesome.css">
+    <link rel="stylesheet" href="assets/css/templatemo-finance-business.css">
+    <link rel="stylesheet" href="assets/css/owl.css">
+  </head>
+
+  <body>
+
+    <!-- ***** Preloader Start ***** -->
+
+    <div id="preloader">
+        <div class="jumper">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>
+
+    <!-- ***** Preloader End ***** -->
+
+  <!--HEADER-->
+
+    <header class="">
+      <nav class="navbar navbar-expand-lg">
+        <div class="container">
+          <a class="navbar-brand" href="index.html"><h2>Unión Papelera</h2></a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="#top">UP
+                  <span class="sr-only">(current)</span>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="corporacion-osgra.html">Corporación Osgra</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="euronoticias/index.html">Euronoticias</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="roover.html">Roover</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="friendly-family.html">Friendly Family</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="biblioteca.html">Biblioteca</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="bitvers.html">Bitvers</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="patentes.html">Patentes</a>
+              </li>
+              <div class="nav-item dropdown">
+                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Comisarías</a>
+                <div class="dropdown-menu">
+                    <a href="seguridad-informática.html" class="dropdown-item">Ciberseguridad</a>
+                    <a href="defensa.html" class="dropdown-item">Defensa</a>
                 </div>
             </div>
+            </ul>
+          </div>
         </div>
-        <!-- Top Header End -->
+      </nav>
+    </header>
 
-
-        <!-- Header Start -->
-        <div class="header">
-            <div class="container">
-                <nav class="navbar navbar-expand-md bg-dark navbar-dark">
-                    <a href="#" class="navbar-brand">MENU</a>
-                    <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-
-                    <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
-                        <div class="navbar-nav m-auto">
-                            <a href="index.html" class="nav-item nav-link active">Noticias</a>
-                            <a href="inter.html" class="nav-item nav-link">Internacional</a>
-                            <a href="europa.html" class="nav-item nav-link">Unión Europea</a>
-                            <a href="up.html" class="nav-item nav-link">Unión Papelera</a>
-                            <a href="tecno.html" class="nav-item nav-link">Tecnología</a>
-                            <a href="analisis.html" class="nav-item nav-link">Análisis</a>
-                            <a href="humor.html" class="nav-item nav-link">Humor</a>
-                            <!--
-                            <div class="nav-item dropdown">
-                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Dropdown</a>
-                                <div class="dropdown-menu">
-                                    <a href="#" class="dropdown-item">Sub Item 1</a>
-                                    <a href="#" class="dropdown-item">Sub Item 2</a>
-                                </div>
-                            </div>
-                        -->
-                        </div>
-                    </div>
-                </nav>
-            </div>
-        </div>
-        <!-- Header End -->
-
-
-        <!-- Top News Start-->
-        <div class="top-news">
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col-md-6 tn-left">
-                        <div class="tn-img">
-                            <img src="img/meeting.jpg" />
-                            <div class="tn-content">
-                                <div class="tn-content-inner">
-                                    <a class="tn-date" href=""><i class="far fa-clock"></i>09-Jul-2022 (Unión Papelera)</a>
-                                    <a class="tn-title" href="ni-mcps-ni-comisarios-asisten-reunion.html">Ni MCPs ni comisarios asisten a una reunión</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 tn-right">
-                        <div class="row">
-                            <div class="col-md-6">
-                                <div class="tn-img">
-                                    <img src="img/treaties.jpg" />
-                                    <div class="tn-content">
-                                        <div class="tn-content-inner">
-                                            <a class="tn-date" href=""><i class="far fa-clock"></i>09-Jun-2022 (Unión Europea)</a>
-                                            <a class="tn-title" href="pe-aprueba-convencion-revisar-tratados.html">El Parlamento Europeo pone en marcha el proceso para cambiar los tratados de la UE</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="tn-img">
-                                    <img src="img/nuevas-confusiones.jpg" />
-                                    <div class="tn-content">
-                                        <div class="tn-content-inner">
-                                            <a class="tn-date" href=""><i class="far fa-clock"></i>09-Jun-2022 (Unión Papelera)</a>
-                                            <a class="tn-title" href="euronoticias-cambios-confusos.html">EURONOTICIAS cambia su nombre a TRECE13noticias y confunde a todos</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="tn-img">
-                                    <img src="img/umbrella.jpg" />
-                                    <div class="tn-content">
-                                        <div class="tn-content-inner">
-                                            <a class="tn-date" href=""><i class="far fa-clock"></i>30-Jun-2022 (Humor)</a>
-                                            <a class="tn-title" href="paraguas-por-que-necesitas-uno.html">Qué es un paragüas nuclear y por qué necesitas uno</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="tn-img">
-                                    <img src="img/g7.png" />
-                                    <div class="tn-content">
-                                        <div class="tn-content-inner">
-                                            <a class="tn-date" href=""><i class="far fa-clock"></i>29-Jun-2022 (Internacional)</a>
-                                            <a class="tn-title" href="otan-aprueba-concepto-estrategico.html">La OTAN aprueba su nuevo concepto estratégico</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+    <!-- Page Content -->
+    <!-- Banner Starts Here -->
+    <div class="main-banner header-text" id="top">
+        <div class="Modern-Slider">
+          <!-- Item -->
+          <div class="item item-1">
+            <div class="img-fill">
+                <div class="text-content">
+                  <h4>Unión Papelera</h4>
+                  <p>Conoce a la Unión Papelera, su funcionamiento y las últimas noticias.</p>
                 </div>
             </div>
+          </div>
+          <!-- // Item -->
+          <!-- Item -->
+
+          <!-- // Item -->
+          <!-- Item -->
+
+          <!-- // Item -->
         </div>
-        <!-- Top News End-->
+    </div>
+    <!-- Banner Ends Here -->
 
+    <div class="request-form">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8">
+            <h4>En un mundo global, reina el poder</h4>
+            <span>Los miembros de la Comisión Papelera no se presentan a una reunión y no dan explicaciones</span>
+          </div>
+        </div>
+      </div>
+    </div>
 
-        <!-- Category News Start-->
-        <div class="cat-news">
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col-md-6">
-                        <h2><i class="fas fa-align-justify"></i>Unión Europea</h2>
-                        <div class="row cn-slider">
-                            <div class="col-md-6">
-                                <div class="cn-img">
-                                    <img src="img/treaties.jpg" />
-                                    <div class="cn-content">
-                                        <div class="cn-content-inner">
-                                            <a class="cn-date" href=""><i class="far fa-clock"></i>09-Jun-2022</a>
-                                            <a class="cn-title" href="pe-aprueba-convencion-revisar-tratados.html">El Parlamento Europeo pone en marcha el proceso para cambiar los tratados de la UE</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="cn-img">
-                                    <img src="img/cat-news-2.jpg" />
-                                    <div class="cn-content">
-                                        <div class="cn-content-inner">
-                                            <a class="cn-date" href=""><i class="far fa-clock"></i>05-Feb-2020</a>
-                                            <a class="cn-title" href="">Vestibulum ante ipsum primis</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="cn-img">
-                                    <img src="img/cat-news-3.jpg" />
-                                    <div class="cn-content">
-                                        <div class="cn-content-inner">
-                                            <a class="cn-date" href=""><i class="far fa-clock"></i>05-Feb-2020</a>
-                                            <a class="cn-title" href="">Sed quis convallis lacus</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <h2><i class="fas fa-align-justify"></i>Unión Papelera</h2>
-                        <div class="row cn-slider">
-                            <div class="col-md-6">
-                                <div class="cn-img">
-                                    <img src="img/reunion.jpg" />
-                                    <div class="cn-content">
-                                        <div class="cn-content-inner">
-                                            <a class="cn-date" href=""><i class="far fa-clock"></i>09-Jul-2022</a>
-                                            <a class="cn-title" href="ni-mcps-ni-comisarios-asisten-reunion.html">Ni MCPs ni comisarios asisten a una reunión</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="cn-img">
-                                    <img src="img/nuevas-confusiones.jpg" />
-                                    <div class="cn-content">
-                                        <div class="cn-content-inner">
-                                            <a class="cn-date" href=""><i class="far fa-clock"></i>09-Jul-2022</a>
-                                            <a class="cn-title" href="euronoticias-cambios-confusos.html">EURONOTICIAS cambia su nombre a TRECE13noticias y confunde a todos</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="cn-img">
-                                    <img src="img/cat-news-6.jpg" />
-                                    <div class="cn-content">
-                                        <div class="cn-content-inner">
-                                            <a class="cn-date" href=""><i class="far fa-clock"></i>24-Jun-2022</a>
-                                            <a class="cn-title" href="trece-noticias-cambios.html">TRECE13noticias cambia su nombre a EURONOTICIAS y renueva su web</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+    <div class="services">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="section-heading">
+              <h2>Unión <em>Papelera</em></h2>
             </div>
-        </div>
-        <!-- Category News End-->
-
-
-        <!-- Category News Start-->
-        <div class="cat-news">
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col-md-6">
-                        <h2><i class="fas fa-align-justify"></i>Internacional</h2>
-                        <div class="row cn-slider">
-                            <div class="col-md-6">
-                                <div class="cn-img">
-                                    <img src="img/nato.jpg" />
-                                    <div class="cn-content">
-                                        <div class="cn-content-inner">
-                                            <a class="cn-date" href=""><i class="far fa-clock"></i>29-Jun-2022</a>
-                                            <a class="cn-title" href="otan-aprueba-concepto-estrategico.html">La OTAN aprueba su nuevo concepto estratégico</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="cn-img">
-                                    <img src="img/g7.png" />
-                                    <div class="cn-content">
-                                        <div class="cn-content-inner">
-                                            <a class="cn-date" href=""><i class="far fa-clock"></i>27-Jun-2022</a>
-                                            <a class="cn-title" href="g7-no-importará-oro-ruso.html">El G7 no importará oro ruso</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="cn-img">
-                                    <img src="img/cat-news-9.jpg" />
-                                    <div class="cn-content">
-                                        <div class="cn-content-inner">
-                                            <a class="cn-date" href=""><i class="far fa-clock"></i>05-Feb-2020</a>
-                                            <a class="cn-title" href="">Integer non nunc nec nulla aliquet</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <h2><i class="fas fa-align-justify"></i>Tecnología</h2>
-                        <div class="row cn-slider">
-                            <div class="col-md-6">
-                                <div class="cn-img">
-                                    <img src="img/cat-news-10.jpg" />
-                                    <div class="cn-content">
-                                        <div class="cn-content-inner">
-                                            <a class="cn-date" href=""><i class="far fa-clock"></i>05-Feb-2020</a>
-                                            <a class="cn-title" href="">Ut laoreet justo non ornare</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="cn-img">
-                                    <img src="img/cat-news-11.jpg" />
-                                    <div class="cn-content">
-                                        <div class="cn-content-inner">
-                                            <a class="cn-date" href=""><i class="far fa-clock"></i>05-Feb-2020</a>
-                                            <a class="cn-title" href="">Proin a nulla ut enim feugiat</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="cn-img">
-                                    <img src="img/cat-news-12.jpg" />
-                                    <div class="cn-content">
-                                        <div class="cn-content-inner">
-                                            <a class="cn-date" href=""><i class="far fa-clock"></i>05-Feb-2020</a>
-                                            <a class="cn-title" href="">Sed mauris sem sollicitudin at neque</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+          </div>
+          <div class="col-md-4">
+            <div class="service-item">
+              <img src="assets/images/music.jpg" alt="">
+              <div class="down-content">
+                <h4>Constitución</h4>
+                <p>La Unión Papelera presenta su himno que es una parte de la 5º sinfonía de Beethoven: el himno de la alegría</p>
+                <a href="assets/himno.mp3" class="filled-button">Escuchalo</a>
+              </div>
             </div>
-        </div>
-        <!-- Category News End-->
-                <!-- Category News Start-->
-
-                <div class="cat-news">
-                    <div class="container-fluid">
-                        <div class="row">
-                            <div class="col-md-6">
-                                <h2><i class="fas fa-align-justify"></i>Análisis</h2>
-                                <div class="row cn-slider">
-                                    <div class="col-md-6">
-                                        <div class="cn-img">
-                                            <img src="img/cat-news-9.jpg" />
-                                            <div class="cn-content">
-                                                <div class="cn-content-inner">
-                                                    <a class="cn-date" href=""><i class="far fa-clock"></i>30-Jun-2022</a>
-                                                    <a class="cn-title" href="">LATIN</a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6">
-                                        <div class="cn-img">
-                                            <img src="img/popular-news.jpg" />
-                                            <div class="cn-content">
-                                                <div class="cn-content-inner">
-                                                    <a class="cn-date" href=""><i class="far fa-clock"></i>27-Jun-2022</a>
-                                                    <a class="cn-title" href="">LATIN</a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6">
-                                        <div class="cn-img">
-                                            <img src="img/cat-news-9.jpg" />
-                                            <div class="cn-content">
-                                                <div class="cn-content-inner">
-                                                    <a class="cn-date" href=""><i class="far fa-clock"></i>05-Feb-2020</a>
-                                                    <a class="cn-title" href="">Integer non nunc nec nulla aliquet</a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <h2><i class="fas fa-align-justify"></i>Humor</h2>
-                                <div class="row cn-slider">
-                                    <div class="col-md-6">
-                                        <div class="cn-img">
-                                            <img src="img/umbrella.jpg" />
-                                            <div class="cn-content">
-                                                <div class="cn-content-inner">
-                                                    <a class="cn-date" href=""><i class="far fa-clock"></i>30-Jun-2022</a>
-                                                    <a class="cn-title" href="paraguas-por-que-necesitas-uno.html">Qué es un paragüas nuclear y por qué necesitas uno</a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6">
-                                        <div class="cn-img">
-                                            <img src="img/cat-news-11.jpg" />
-                                            <div class="cn-content">
-                                                <div class="cn-content-inner">
-                                                    <a class="cn-date" href=""><i class="far fa-clock"></i>05-Feb-2020</a>
-                                                    <a class="cn-title" href="">Proin a nulla ut enim feugiat</a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6">
-                                        <div class="cn-img">
-                                            <img src="img/cat-news-12.jpg" />
-                                            <div class="cn-content">
-                                                <div class="cn-content-inner">
-                                                    <a class="cn-date" href=""><i class="far fa-clock"></i>05-Feb-2020</a>
-                                                    <a class="cn-title" href="">Sed mauris sem sollicitudin at neque</a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- Category News End-->
-
-
-        <!-- Main News Start-->
-        <div class="main-news">
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col-md-8">
-                        <div class="row">
-                            <div class="col-md-12">
-                                <h2><i class="fas fa-align-justify"></i>Editoriales</h2>
-                                <div class="row">
-                                    <div class="col-lg-6">
-                                        <div class="mn-img">
-                                            <img src="img/editorial.jpg" />
-                                        </div>
-                                        <div class="mn-content">
-                                            <a class="mn-title" href="editorial-26-06-2022.html">Editorial 26-Jun-2022: Falsedades de DN</a>
-                                            <a class="mn-date" href=""><i class="far fa-clock"></i>26-Jun-2022</a>
-                                            <p>
-                                               Día Novedad lleva mucho tiempo apagada. No recibe más encargas, no acepta nuevas patentes aunquen ellos no las tengan.
-                                            </p>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-6">
-                                        <div class="mn-list">
-                                            <div class="mn-img">
-                                                <img src="img/latest-news.jpg" />
-                                            </div>
-                                            <div class="mn-content">
-                                                <a class="mn-title" href="">Pellentesque sit amet rutrum lacus</a>
-                                                <a class="mn-date" href=""><i class="far fa-clock"></i>05-Feb-2020</a>
-                                            </div>
-                                        </div>
-                                        <div class="mn-list">
-                                            <div class="mn-img">
-                                                <img src="img/latest-news.jpg" />
-                                            </div>
-                                            <div class="mn-content">
-                                                <a class="mn-title" href="">Proin id pretium orci, quis rhoncus eros</a>
-                                                <a class="mn-date" href=""><i class="far fa-clock"></i>05-Feb-2020</a>
-                                            </div>
-                                        </div>
-                                        <div class="mn-list">
-                                            <div class="mn-img">
-                                                <img src="img/latest-news.jpg" />
-                                            </div>
-                                            <div class="mn-content">
-                                                <a class="mn-title" href="">Curabitur viverra scelerisque tempor</a>
-                                                <a class="mn-date" href=""><i class="far fa-clock"></i>05-Feb-2020</a>
-                                            </div>
-                                        </div>
-                                        <div class="mn-list">
-                                            <div class="mn-img">
-                                                <img src="img/latest-news.jpg" />
-                                            </div>
-                                            <div class="mn-content">
-                                                <a class="mn-title" href="">Integer nec lorem facilisis interdum lorem non</a>
-                                                <a class="mn-date" href=""><i class="far fa-clock"></i>05-Feb-2020</a>
-                                            </div>
-                                        </div>
-                                        <div class="mn-list">
-                                            <div class="mn-img">
-                                                <img src="img/latest-news.jpg" />
-                                            </div>
-                                            <div class="mn-content">
-                                                <a class="mn-title" href="">Interdum et malesuada fames</a>
-                                                <a class="mn-date" href=""><i class="far fa-clock"></i>05-Feb-2020</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            
-                            <!--
-                            <div class="col-md-12">
-                                <h2><i class="fas fa-align-justify"></i>Popular News</h2>
-                                <div class="row">
-                                    <div class="col-lg-6">
-                                        <div class="mn-img">
-                                            <img src="img/popular-news.jpg" />
-                                        </div>
-                                        <div class="mn-content">
-                                            <a class="mn-title" href="">Phasellus gravida metus vitae laoreet aliquam</a>
-                                            <a class="mn-date" href=""><i class="far fa-clock"></i>05-Feb-2020</a>
-                                            <p>
-                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sed porta dui. Class aptent taciti sociosqu ad litora torquent per conubia nostra inceptos...
-                                            </p>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-6">
-                                        <div class="mn-list">
-                                            <div class="mn-img">
-                                                <img src="img/popular-news.jpg" />
-                                            </div>
-                                            <div class="mn-content">
-                                                <a class="mn-title" href="">Nullam risus ante sempe</a>
-                                                <a class="mn-date" href=""><i class="far fa-clock"></i>05-Feb-2020</a>
-                                            </div>
-                                        </div>
-                                        <div class="mn-list">
-                                            <div class="mn-img">
-                                                <img src="img/popular-news.jpg" />
-                                            </div>
-                                            <div class="mn-content">
-                                                <a class="mn-title" href="">Pellentesque ultrices quam id ipsum tempor</a>
-                                                <a class="mn-date" href=""><i class="far fa-clock"></i>05-Feb-2020</a>
-                                            </div>
-                                        </div>
-                                        <div class="mn-list">
-                                            <div class="mn-img">
-                                                <img src="img/popular-news.jpg" />
-                                            </div>
-                                            <div class="mn-content">
-                                                <a class="mn-title" href="">Nam ex magna, commodo sed turpis rutrum</a>
-                                                <a class="mn-date" href=""><i class="far fa-clock"></i>05-Feb-2020</a>
-                                            </div>
-                                        </div>
-                                        <div class="mn-list">
-                                            <div class="mn-img">
-                                                <img src="img/popular-news.jpg" />
-                                            </div>
-                                            <div class="mn-content">
-                                                <a class="mn-title" href="">Aliquam condimentum metus</a>
-                                                <a class="mn-date" href=""><i class="far fa-clock"></i>05-Feb-2020</a>
-                                            </div>
-                                        </div>
-                                        <div class="mn-list">
-                                            <div class="mn-img">
-                                                <img src="img/popular-news.jpg" />
-                                            </div>
-                                            <div class="mn-content">
-                                                <a class="mn-title" href="">Ut ornare rutrum ligula erat volutpat</a>
-                                                <a class="mn-date" href=""><i class="far fa-clock"></i>05-Feb-2020</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    -->
-                    </div>
-                
-
-
-                </div>
+          </div>
+          <div class="col-md-4">
+            <div class="service-item">
+              <img src="assets/images/idioma.jpg" alt="">
+              <div class="down-content">
+                <h4>Idioma</h4>
+                <p>La UP está desarrollando un nuevo idioma llamado papelero.<br>
+                El idioma aún no está terminado.</p>
+                <a href="https://cryptpad.fr/pad/#/2/pad/view/5HVe6DRqAMi3knMWAx2kl0uIzaYsUEnKu4FJfO4soSs/p/" class="filled-button">Saber más</a>
+              </div>
             </div>
+          </div>
+          <div class="col-md-4">
+            <div class="service-item">
+              <img src="assets/images/d299f0d07ce7fa7de8f551784788d324.jpg" alt="">
+              <div class="down-content">
+                <h4>APPS</h4>
+                <p>Agencia Papelera de Pago Seguro</p>
+                <a href="https://cryptpad.fr/pad/#/2/pad/view/pGwwRHUVVh-RqVDxTECzC4-9uRehQ6rygMiid8KJm1s/p/" class="filled-button">Conócela</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="service-item">
+              <img src="logo.png" alt="">
+              <div class="down-content">
+                <h4>TRECE13noticias</h4>
+                <p>Agencia de noticias</p>
+                <a href="trece13noticias/index.html" class="filled-button">Visitar</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="service-item">
+              <img src="assets/images/cp.jpg" alt="">
+              <div class="down-content">
+                <h4>CP</h4>
+                <p>Conformidad Papelera para productos extranjeros</p>
+                <a href="https://cryptpad.fr/pad/#/2/pad/view/A6Bd9tcwL5Qo8-kpbuIX096LSI+Y7nmZvG8OyA6vVh4/p/" class="filled-button">Más Información</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="service-item">
+              <img src="assets/images/map-of-papelero.jpg" alt="">
+              <div class="down-content">
+                <h4>Mapa</h4>
+                <p>Mapa de los dominios papeleros</p>
+                <a href="https://cryptpad.fr/pad/#/2/pad/view/W-dxVgJyYpmLj4bfTCoopBNBbcxzrTao7hkPRyqsDmY/p/" class="filled-button">Ver el mapa</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="service-item">
+              <img src="assets/images/bit.jpg" alt="">
+              <div class="down-content">
+                <h4>Bitvers</h4>
+                <p>Moneda creada por Roover</p>
+                <a href="https://cryptpad.fr/pad/#/2/pad/view/GtVau7USyuYWFJeN-D8kp0Nsi+OTRPdm+e+9vQJDvOE/p/" class="filled-button">Más información</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="service-item">
+              <img src="assets/images/derechos.jpg" alt="">
+              <div class="down-content">
+                <h4>Leyes</h4>
+                <p>Leyes de la UP</p>
+                <a href="leyes-papeleras.html" class="filled-button">Más información</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+        <div class="service-item">
+        <img src="assets/images/3c15eba6d03b89b1becb6ae05f405c21.jpg" alt="">
+          <div class="down-content">
+         <h4>APPJ</h4>
+          <p>Agencia Papelera de Precios Justos</p>
+           <a href="https://cryptpad.fr/pad/#/2/pad/view/VVeAzlxGJcrWUWgJzlvt-hkgSIOo-BhIGFT0V4EhICU/p/" class="filled-button">Conócela</a>
+            </div>
+          </div>
+         </div>
         </div>
-        <!-- Main News End-->
+      </div>
+    </div>
+    <p style="text-align: center">ATENCIÓN!!! VISITE LA PÁGINA DE <a href="server.html">SERVERS</a> del GP</p>
 
-
-        <!-- Footer Start -->
-        <div class="footer">
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col-lg-3 col-md-6">
-                        <div class="footer-widget">
-                            <h3 class="title">Links</h3>
-                            <ul>
-                                <li><a href="index.html">Noticias</a></li>
-                                <li><a href="inter.html">Internacional</a></li>
-                                <li><a href="up.html">Unión Papelera</a></li>
-                                <li><a href="europa.html">Unión Europea</a></li>
-                                <li><a href="tecno.html">Tecnología</a></li>
-                                <li><a href="analisis.html">Análisis</a></li>
-                                <li><a href="humor.html">Humor</a></li>
-                            </ul>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-md-6">
-                        <div class="footer-widget">
-                            <h3 class="title">Links Rápidos</h3>
-                            <ul>
-                                <li><a href="https://europarl.europa.eu">Parlamento Europeo</a></li>
-                                <li><a href="https://ec.europa.eu">Comisión Europea</a></li>
-                                <li><a href="https://consilium.europa.eu">Consejo Europeo</a></li>
-                                <li><a href="https://europeday.europa.eu">Día de Europa</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6">
-                        <div class="footer-widget">
-                            <h3 class="title">Contacto</h3>
-                            <div class="contact-info">
-                                <p><i class="fa fa-envelope"></i>gobiernopapelero@mailfence.com</p>
-                            </div>
-                        </div>
-                    </div>
-                    
-        <!-- Footer End -->
-
-
-
-
-
-        <!-- Back to Top -->
-        <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
-
-
-        <!-- JavaScript Libraries -->
-        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
-        <script src="lib/easing/easing.min.js"></script>
-        <script src="lib/slick/slick.min.js"></script>
-
-
-        <!-- Template Javascript -->
-        <script src="js/main.js"></script>
-    </body>
-</html>
-
+    <div class="fun-facts">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="left-content">
+              <h2>Nuestro trabajo</h2>
+              <p>La Unión Papelera cuenta con diversos funcionarios y trabajadosres</p>
+            </div>
+          </div>
+          <div class="col-md-6 align-self-center">
+            <div class="row">
+              <div class="col-md-6">
+                <div class="count-area-content">
+                  <div class="count-digit">1000</div>
+                  <div class="count-title">Horas trabajadas</div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="count-area-content">
+                  <div class="count-digit">2</div>
+                  <div class="count-title">Buenas Reseñas</div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="count-area-content">
+                  <div class="count-digit">25</div>
+                  <div class="count-title">Empresas</div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="count-area-content">
+                  <div class="count-digit">100</div>
+                  <div class="count-title">Empleados</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
 <!--
-                    <div class="col-lg-3 col-md-6">
-                        <div class="footer-widget">
-                            <h3 class="title">Get in Touch</h3>
-                            <div class="contact-info">
-                                <p><i class="fa fa-map-marker"></i>123 Terry Lane, New York, USA</p>
-                                <p><i class="fa fa-envelope"></i>email@example.com</p>
-                                <p><i class="fa fa-phone"></i>+123-456-7890</p>
-                                <div class="social">
-                                    <a href=""><i class="fab fa-twitter"></i></a>
-                                    <a href=""><i class="fab fa-facebook"></i></a>
-                                    <a href=""><i class="fab fa-linkedin"></i></a>
-                                    <a href=""><i class="fab fa-instagram"></i></a>
-                                    <a href=""><i class="fab fa-youtube"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                -->
-
+    <div class="more-info">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="more-info-content">
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="left-image">
+                    <img src="assets/images/more-info.jpg" alt="">
+                  </div>
                 </div>
+                <div class="col-md-6 align-self-center">
+                  <div class="right-content">
+                    <span>Who we are</span>
+                    <h2>Get to know about <em>our company</em></h2>
+                    <p>Curabitur pulvinar sem a leo tempus facilisis. Sed non sagittis neque. Nulla conse quat tellus nibh, id molestie felis sagittis ut. Nam ullamcorper tempus ipsum in cursus<br><br>Praes end at dictum metus. Morbi id hendrerit lectus, nec dapibus ex. Etiam ipsum quam, luctus eu egestas eget, tincidunt</p>
+                    <a href="#" class="filled-button">Read More</a>
+                  </div>
+                </div>
+              </div>
             </div>
+          </div>
         </div>
-        <!-- Footer End -->
+      </div>
+    </div>
+--><br>
+  <div class="container">
+              <div class="right-content">
+                <h2>Cómo funciona la Unión Papelera</h2>
+                <p>Aquí puede verse un esquema</p>
+                <img src="assets/images/Funcionamiento-de-la-UP.png" style="width:1200px
+                ; height: 1000px;"><br><br>
+                <p>La comisión papelera es la encargada de proponer leyes y decisiones tanto nacionales como internacionales, excepto decisiones (no leyes) que tengan que ver con
+                  materia económica cuya responsabilidad recae en el BCP (Banco Central Papelero) tanto su proposición como aprobación.<br>
+                  La comisión se compone del presidente de la comisión y los comisarios, como mínimo uno por estado miembro. Ahí se tratan los temas que tengan 
+                  que ver con la UP y con los empleados. Se hacen debates para tomar la mejor decisión sobre el tema.<br>
+                  Una vez la comisión llega a un acuerdo pasa los resultados al consejo de la Unión Papelera, formado por todos los gobernadores de 
+                  los países miembros que deberán votar las decisiones. Quedarán aprobadas por mayoría simple. Si se diese un empate los votos de el consejo de la UP 
+                  se combinaría con los de la comisión papelera. para determinar un resultado.<br>
+                  El tribunal superior de la UP está formado por mínimo dos miemros y máximo tres de los países miemros elegidos al azar<br>
+                  El banco central papelero está formado por el presidente de la comisión y asesores y comisarios de economía e industria.
+                </p>
+              </div>
+            </div>
+  <div class="services">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="section-heading">
+            <h2>Miembros de la <em>Comisión Papelera</em></h2>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="service-item">
+            <img src="assets/images/star.jpg" alt="">
+            <div class="down-content">
+              <h4>ASM</h4>
+              <p>Presidente de la Comisión Papelera</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="service-item">
+            <img src="assets/images/crown.png" alt="">
+            <div class="down-content">
+              <h4>HYL</h4>
+              <p>Comisario de defensa y ataque</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="service-item">
+            <img src="assets/images/jsw.png" alt="">
+            <div class="down-content">
+              <h4>Johan Sebastian Werng</h4>
+              <p>Comisario de Pinos y Piñones</p>¡
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="service-item">
+            <img src="assets/images/ext.png" alt="">
+            <div class="down-content">
+              <h4>Sirmp Standford Noon</h4>
+              <p>Comisario de exteriores</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="service-item">
+            <img src="assets/images/eco.png" alt="">
+            <div class="down-content">
+              <h4>Carlos Germán Luis</h4>
+              <p>Comisario de economía</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="service-item">
+            <img src="assets/images/ind.png" alt="" style="height: 320px;">
+            <div class="down-content">
+              <h4>Luis Atempt Ferd</h4>
+              <p>Comisario de industria</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 
+    <div class="testimonials">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="section-heading">
+              <h2>Lo que dicen <em>sobre nosotros</em></h2>
+              <span>testimonios de nuestros trabajadores</span>
+            </div>
+          </div>
+          <div class="col-md-12">
+            <div class="owl-testimonials owl-carousel">
 
-        <!-- Footer Bottom Start -->
-        <div class="footer-bottom">
-            <div class="container">
+              <div class="testimonial-item">
+                <div class="inner-content">
+                  <h4>HYL</h4>
+                  <span>Trabajador de HY Industries</span>
+                  <p>"Voy a volver a trabajar para el Gobierno Papelero"</p>
+                </div>
+              </div>
+
+              <div class="testimonial-item">
+                <div class="inner-content">
+                  <h4>Johan Sebastian Wergn</h4>
+                  <span>Comisario de Pinos y Piñones</span>
+                  <p>"Me encanta trabajar en el Gobierno Papelero"</p>
+                </div>
+              </div>
+<!--
+              <div class="testimonial-item">
+                <div class="inner-content">
+                  <h4>David Wood</h4>
+                  <span>Chief Accountant</span>
+                  <p>"Ut ultricies maximus turpis, in sollicitudin ligula posuere vel. Donec finibus maximus neque, vitae egestas quam imperdiet nec. Proin nec mauris eu tortor consectetur tristique."</p>
+                </div>
+              </div>
+
+              <div class="testimonial-item">
+                <div class="inner-content">
+                  <h4>Andrew Boom</h4>
+                  <span>Marketing Head</span>
+                  <p>"Curabitur sollicitudin, tortor at suscipit volutpat, nisi arcu aliquet dui, vitae semper sem turpis quis libero. Quisque vulputate lacinia nisl ac lobortis."</p>
+                </div>
+              </div>
+-->
+</div style="background-color: #f7f7f7">
+          </div>
+        </div>
+      </div>
+    </div>
+<!--
+    <div class="callback-form">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="section-heading">
+              <h2>Request a <em>call back</em></h2>
+              <span>Etiam suscipit ante a odio consequat</span>
+            </div>
+          </div>
+          <div class="col-md-12">
+            <div class="contact-form">
+              <form id="contact" action="" method="post">
                 <div class="row">
-                    <div class="col-md-6 copyright">
-                        <p>&copy; TRECE13noticias</p>
-                    </div>
-
-                    
-                    <div class="col-md-6 template-by">
-                        <p>Template By <a href="https://htmlcodex.com">HTML Codex</a></p>
-                    </div>
+                  <div class="col-lg-4 col-md-12 col-sm-12">
+                    <fieldset>
+                      <input name="name" type="text" class="form-control" id="name" placeholder="Full Name" required="">
+                    </fieldset>
+                  </div>
+                  <div class="col-lg-4 col-md-12 col-sm-12">
+                    <fieldset>
+                      <input name="email" type="text" class="form-control" id="email" pattern="[^ @]*@[^ @]*" placeholder="E-Mail Address" required="">
+                    </fieldset>
+                  </div>
+                  <div class="col-lg-4 col-md-12 col-sm-12">
+                    <fieldset>
+                      <input name="subject" type="text" class="form-control" id="subject" placeholder="Subject" required="">
+                    </fieldset>
+                  </div>
+                  <div class="col-lg-12">
+                    <fieldset>
+                      <textarea name="message" rows="6" class="form-control" id="message" placeholder="Your Message" required=""></textarea>
+                    </fieldset>
+                  </div>
+                  <div class="col-lg-12">
+                    <fieldset>
+                      <button type="submit" id="form-submit" class="border-button">Send Message</button>
+                    </fieldset>
+                  </div>
                 </div>
+              </form>
             </div>
+          </div>
         </div>
-        <!-- Footer Bottom End -->
+      </div>
+    </div>
 
 
-        <!-- Back to Top -->
-        <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+    <div class="partners">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="owl-partners owl-carousel">
+
+              <div class="partner-item">
+                <img src="assets/images/client-01.png" title="1" alt="1">
+              </div>
+
+              <div class="partner-item">
+                <img src="assets/images/client-01.png" title="2" alt="2">
+              </div>
+
+              <div class="partner-item">
+                <img src="assets/images/client-01.png" title="3" alt="3">
+              </div>
+
+              <div class="partner-item">
+                <img src="assets/images/client-01.png" title="4" alt="4">
+              </div>
+
+              <div class="partner-item">
+                <img src="assets/images/client-01.png" title="5" alt="5">
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+-->
+
+    <!-- Footer Starts Here -->
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3 footer-item">
+            <h4>Unión Papelera</h4>
+            <p>Formada por los estados papeleros.</p>
+            <p>Su gobierno se llama Gobierno Papelero.</p>
+          </div>
 
 
-        <!-- JavaScript Libraries -->
-        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
-        <script src="lib/easing/easing.min.js"></script>
-        <script src="lib/slick/slick.min.js"></script>
+          <div class="col-md-3 footer-item">
+            <h4>Páginas Adicionales</h4>
+            <ul class="menu-list">
+              <li><a href="leyes-papeleras.html">Leyes Papeleras</a></li>
+              <li><a href="cuentas.html">Cuentas</a></li>
+              <li><a href="os.html">Sistemas Operativos</a></li>
+              <li><a href="privacy.html">Política de privacidad</a></li>
+            </ul>
+          </div>
+          <div class="col-md-3 footer-item">
+            <h4>Contacto</h4>
+            <p>gobiernopapelero@mailfence.com</p>
+          </div>
+          <div class="col-md-3 footer-item">
+            <img src="flag.png" style="width: 150px;">
+          </div>
 
+          </div>
+        </div>
+      </div>
+    </footer>
 
-        <!-- Template Javascript -->
-        <script src="js/main.js"></script>
-    </body>
+    <div class="sub-footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <p>&copy; Unión Papelera
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Additional Scripts -->
+    <script src="assets/js/custom.js"></script>
+    <script src="assets/js/owl.js"></script>
+    <script src="assets/js/slick.js"></script>
+    <script src="assets/js/accordions.js"></script>
+
+    <script language = "text/Javascript">
+      cleared[0] = cleared[1] = cleared[2] = 0; //set a cleared flag for each field
+      function clearField(t){                   //declaring the array outside of the
+      if(! cleared[t.id]){                      // function makes it static and global
+          cleared[t.id] = 1;  // you could use true and false, but that's more typing
+          t.value='';         // with more chance of typos
+          t.style.color='#fff';
+          }
+      }
+    </script>
+
+  </body>
 </html>
-
